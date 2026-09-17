@@ -9,172 +9,17 @@ A community-driven hub of **42+ runnable notebooks** covering RAG techniques fro
 
 ---
 
+Originally created by [Nir Diamant](https://github.com/NirDiamant/RAG_Techniques). Maintained by **Sreekanth Pogula** in this fork ([sreekanthpogula/RAG_COOKBOOK](https://github.com/sreekanthpogula/RAG_COOKBOOK)).
+
+---
+
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/nir-diamant-759323134/)
-[![Twitter](https://img.shields.io/twitter/follow/NirDiamantAI?label=Follow%20@NirDiamantAI&style=social)](https://twitter.com/NirDiamantAI)
-[![Reddit](https://img.shields.io/badge/Reddit-Join%20our%20subreddit-FF4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/EducationalAI/)
-[![Discord](https://img.shields.io/badge/Discord-Join%20our%20community-7289da?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/cA6Aa4uyDX)
-[![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=ff69b4)](https://github.com/sponsors/NirDiamant)
-
-<h2 align="center">🎓 From RAG prototypes to production</h2>
-
-<div align="center">
-
-**[Prompt to Production](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=main-readme&click=course-free-module-cta&target=https%3A%2F%2Fwww.diamant-ai.com%2Fcourses%3Futm_source%3Dgithub%26utm_medium%3Dreadme%26utm_campaign%3Drag-techniques&retarget=0&text=course-free-module-cta)** - my full course on building software with AI the way professionals do: the methods and paradigms behind reliable, efficient, modular production systems, taught systematically. 17 modules, each pairing a video lecture with a hands-on lab, from your first structured prompt to a working production system.
-
-**The course is live.** Every module is out, lecture and lab.
-
-### 🎁 Try a full module, free
-
-<table>
-<tr>
-<td align="center">🎬<br><b>7-minute<br>video lecture</b></td>
-<td align="center">🛠️<br><b>Hands-on<br>tutorial</b></td>
-<td align="center">🤖<br><b>AI assistant<br>inside Claude Code</b></td>
-</tr>
-</table>
-
-One `npm install` adds the module's AI assistant to your Claude Code, and it guides you through the tutorial as you build.
-
-<a href="https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=main-readme&click=course-free-module-cta&target=https%3A%2F%2Fwww.diamant-ai.com%2Fcourses%3Futm_source%3Dgithub%26utm_medium%3Dreadme%26utm_campaign%3Drag-techniques&retarget=0&text=course-free-module-cta"><img src="images/free-module-button.svg" alt="Claim your free module" width="420"></a>
-
-### 👉 [**Get the full course**](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=main-readme&click=course-full-cta&target=https%3A%2F%2Fwww.diamant-ai.com%2Fcourses%3Futm_source%3Dgithub%26utm_medium%3Dreadme%26utm_campaign%3Drag-techniques&retarget=0&text=course-full-cta)
-
-</div>
-
-## Sponsors ❤️
-
-We gratefully acknowledge the organizations and individuals who have made significant contributions to this project.
-
-**Company Sponsors**
-
-<div align="center">
-
-<table style="border: none; border-collapse: collapse; width: 100%; max-width: 840px; margin: 0 auto; background: transparent; table-layout: fixed;">
-  <tr>
-    <td style="border: none; text-align: center; padding: 16px 24px; width: 33.33%; vertical-align: top;">
-      <a href="https://app.contextual.ai?utm_campaign=rag-techniques&utm_source=diamantai&utm_medium=github&utm_content=notebook" target="_blank" style="text-decoration: none; display: inline-block; transition: transform 0.2s ease;">
-        <img src="images/trimmed_padded_contextual_white.png#gh-light-mode-only" 
-             alt="Contextual AI"
-             style="height: 28px; width: auto; border-radius: 12px; vertical-align: middle; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-        <img src="images/trimmed_padded_contextual_black.png#gh-dark-mode-only" 
-             alt="Contextual AI"
-             style="height: 28px; width: auto; border-radius: 12px; vertical-align: middle; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-      </a>
-    </td>
-    <td style="border: none; text-align: center; padding: 16px 24px; width: 33.33%; vertical-align: middle;">
-      <a href="https://coderabbit.link/nir" target="_blank" style="text-decoration: none; display: inline-block; transition: transform 0.2s ease;">
-        <img src="images/coderabbit_Light_Type_Mark_Orange.png#gh-light-mode-only"
-             alt="CodeRabbit"
-             style="height: 28px; width: auto; border-radius: 12px; vertical-align: middle; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-        <img src="images/coderabbit_Dark_Type_Mark.png#gh-dark-mode-only"
-             alt="CodeRabbit"
-             style="height: 28px; width: auto; border-radius: 12px; vertical-align: middle; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-      </a>
-    </td>
-    <td style="border: none; text-align: center; padding: 16px 24px; width: 33.33%; vertical-align: middle;">
-      <a href="https://www.qodo.ai/?utm_source=diamantai&utm_medium=github&utm_campaign=rag-techniques&utm_content=readme-sponsor" target="_blank" style="text-decoration: none; display: inline-block; transition: transform 0.2s ease;">
-        <img src="images/qodo-logo.svg"
-             alt="Qodo"
-             style="height: 28px; width: auto; border-radius: 12px; vertical-align: middle; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-      </a>
-    </td>
-  </tr>
-</table>
-</div>
-
-**Individual Sponsors**
-
-<a href="https://github.com/sponsors/Eisenh"><img src="https://github.com/Eisenh.png" style="border-radius: 50%;" width="64" height="64" alt=""></a>
-
-## 📫 Stay Updated!
-
-<div align="center">
-<table>
-<tr>
-<td align="center">🚀<br><b>Cutting-edge<br>Updates</b></td>
-<td align="center">💡<br><b>Expert<br>Insights</b></td>
-<td align="center">🎯<br><b>Top 0.1%<br>Content</b></td>
-
-</tr>
-</table>
-
-[![Subscribe to DiamantAI Newsletter](images/subscribe-button.svg)](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=main-readme&click=newsletter-subscribe-button&target=https%3A%2F%2Fnewsletter.diamant-ai.com%2F%3Fr%3D336pe4%26utm_campaign%3Dpub-share-checklist&text=Subscribe%20to%20DiamantAI%20Newsletter)
-
-*Join over 50,000 AI enthusiasts getting unique cutting-edge insights and free tutorials!* ***Plus, subscribers get exclusive early access and special 33% discounts to my book and the upcoming RAG Techniques course!***
-</div>
-
-[![DiamantAI's newsletter](images/substack_image.png)](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=main-readme&click=newsletter-subscribe-image&target=https%3A%2F%2Fnewsletter.diamant-ai.com%2F%3Fr%3D336pe4%26utm_campaign%3Dpub-share-checklist&text=DiamantAI%27s%20newsletter)
-
-<h2 align="center">🎬 Prefer video?</h2>
-
-<div align="center">
-
-*I break these ideas down into short, one-idea-per-episode explainers on YouTube.*
-
-<p align="center">
-  <a href="https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=main-readme&amp;click=youtube-readme-hallucination&amp;target=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAiyRZV38Lk0%26list%3DPLBrpE2PttR2k&amp;retarget=0&amp;text=youtube-readme-hallucination">
-    <img src="https://img.youtube.com/vi/AiyRZV38Lk0/maxresdefault.jpg" width="60%" alt="">
-    <br><b>🆕 AI Is Rewarded for Guessing [Hallucination]</b>
-  </a><br>
-  <sub>why a model guesses instead of saying I don't know, watched on its own token probabilities, and where retrieval moves the fact out of the guess</sub>
-</p>
-
-<table>
-<tr>
-<td width="25%" align="center" valign="top">
-  <a href="https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=main-readme&amp;click=youtube-readme-ep01&amp;target=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DrRCfl4aRYJs%26list%3DPLW_gT61bcB78&amp;retarget=0&amp;text=youtube-readme-ep01">
-    <img src="https://img.youtube.com/vi/rRCfl4aRYJs/mqdefault.jpg" width="100%" alt="">
-    <br><b>RAG Explained: Why AI Gets Your Own Documents Wrong</b>
-  </a><br>
-  <sub>why chunks overlap, what &quot;meaning space&quot; is, and where simple RAG breaks down</sub>
-</td>
-<td width="25%" align="center" valign="top">
-  <a href="https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=main-readme&amp;click=youtube-readme-ep02&amp;target=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DFkeEJz2fh90%26list%3DPLW_gT61bcB78&amp;retarget=0&amp;text=youtube-readme-ep02">
-    <img src="https://img.youtube.com/vi/FkeEJz2fh90/mqdefault.jpg" width="100%" alt="">
-    <br><b>How Do You Search a Spreadsheet by Meaning?</b>
-  </a><br>
-  <sub>turn each row into one labelled line and search the table by meaning</sub>
-</td>
-<td width="25%" align="center" valign="top">
-  <a href="https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=main-readme&amp;click=youtube-readme-ep03&amp;target=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DoVI2GA8jn7w%26list%3DPLW_gT61bcB78&amp;retarget=0&amp;text=youtube-readme-ep03">
-    <img src="https://img.youtube.com/vi/oVI2GA8jn7w/mqdefault.jpg" width="100%" alt="">
-    <br><b>How Do You Know Your RAG Answer Isn't Made Up?</b>
-  </a><br>
-  <sub>three checkpoints that catch a bad chunk on the way in and an unsupported claim on the way out</sub>
-</td>
-<td width="25%" align="center" valign="top">
-  <a href="https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=main-readme&amp;click=youtube-readme-ep04&amp;target=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DUqh6DPaSTzg%26list%3DPLW_gT61bcB78&amp;retarget=0&amp;text=youtube-readme-ep04">
-    <img src="https://img.youtube.com/vi/Uqh6DPaSTzg/mqdefault.jpg" width="100%" alt="">
-    <br><b>Why Does RAG Return a Paragraph When You Asked for One Fact?</b>
-  </a><br>
-  <sub>why a paragraph's embedding is a blend that points at nothing in particular</sub>
-</td>
-</tr>
-</table>
-
-[![Subscribe on YouTube](https://img.shields.io/youtube/channel/subscribers/UCatj5F2gohksvfNmnEpRnNA?style=social)](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=main-readme&click=youtube-subscribe-channel&target=https%3A%2F%2Fwww.youtube.com%2F%40DiamantAI%3Fsub_confirmation%3D1&retarget=0&text=youtube-subscribe-channel) &nbsp; [**Browse every episode →**](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=main-readme&click=youtube-all-episodes&target=https%3A%2F%2Fwww.youtube.com%2F%40DiamantAI&retarget=0&text=youtube-all-episodes)
-
-</div>
 
 ## Introduction
 
 Retrieval-Augmented Generation (RAG) is revolutionizing the way we combine information retrieval with generative AI. This repository showcases a curated collection of advanced techniques designed to supercharge your RAG systems, enabling them to deliver more accurate, contextually relevant, and comprehensive responses.
 
 Our goal is to provide a valuable resource for researchers and practitioners looking to push the boundaries of what's possible with RAG. By fostering a collaborative environment, we aim to accelerate innovation in this exciting field.
-
-## 📖 Go deeper: the book
-
-<div align="center">
-
-<a href="https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=main-readme&amp;click=book-buy-amazon-rag-image&amp;target=https%3A%2F%2Fwww.amazon.com%2Fdp%2FB0GWDH8JJL%3Fmaas%3Dmaas_adg_api_580351185840460851_static_9_573%26ref_%3Daa_maas%26tag%3Dmaas%26aa_campaignid%3Drag-en%26aa_adgroupid%3Dgithub-readme%26aa_creativeid%3Dbook-section&amp;retarget=0&amp;text=book-buy-amazon-rag-image"><img src="images/rag_book_best_seller.png" alt="RAG Made Simple" width="360"></a>
-
-**[RAG Made Simple](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=main-readme&click=book-buy-amazon-rag-cta&target=https%3A%2F%2Fwww.amazon.com%2Fdp%2FB0GWDH8JJL%3Fmaas%3Dmaas_adg_api_580351185840460851_static_9_573%26ref_%3Daa_maas%26tag%3Dmaas%26aa_campaignid%3Drag-en%26aa_adgroupid%3Dgithub-readme%26aa_creativeid%3Dbook-section&retarget=0&text=book-buy-amazon-rag-cta)** - the 400-page visual companion to this repo.
-Amazon Bestseller in Generative AI · 1,500+ readers · ⭐ 4.6
-
-**[Get it on Amazon (paperback · Kindle · free on Kindle Unlimited) →](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=main-readme&click=book-buy-amazon-rag-cta&target=https%3A%2F%2Fwww.amazon.com%2Fdp%2FB0GWDH8JJL%3Fmaas%3Dmaas_adg_api_580351185840460851_static_9_573%26ref_%3Daa_maas%26tag%3Dmaas%26aa_campaignid%3Drag-en%26aa_adgroupid%3Dgithub-readme%26aa_creativeid%3Dbook-section&retarget=0&text=book-buy-amazon-rag-cta)** · [Read Chapter 1 free](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=main-readme&click=free-chapter&target=https%3A%2F%2Fdiamant-ai.com%2Frag-made-simple%2Fchapter-1&retarget=0&text=free-chapter)
-
-</div>
 
 ## Related Projects
 
@@ -189,8 +34,6 @@ Amazon Bestseller in Generative AI · 1,500+ readers · ⭐ 4.6
 ## Join the community
 
 Contributions make this better - propose ideas, share techniques, or give feedback via **[CONTRIBUTING.md](https://github.com/NirDiamant/RAG_Techniques/blob/main/CONTRIBUTING.md)**.
-
-**[r/EducationalAI](https://www.reddit.com/r/EducationalAI/)** · **[Discord](https://discord.gg/cA6Aa4uyDX)** · **[LinkedIn](https://www.linkedin.com/in/nir-diamant-759323134/)**
 
 ## Key Features
 
@@ -686,33 +529,13 @@ To begin implementing these advanced RAG techniques in your projects:
 
 1. Clone this repository:
    ```
-   git clone https://github.com/NirDiamant/RAG_Techniques.git
+   git clone https://github.com/sreekanthpogula/RAG_COOKBOOK.git
    ```
 2. Navigate to the technique you're interested in:
    ```
    cd all_rag_techniques/technique-name
    ```
 3. Follow the detailed implementation guide in each technique's directory.
-
-## 📚 Recommended reading
-
-*This list contains Amazon affiliate links. As an Amazon Associate I earn from qualifying purchases. Every book below is one I've read and genuinely recommend to engineers working in this space. The companion book to this repo is featured separately at the top of this README.*
-
-- [Build a Large Language Model (From Scratch)](https://www.amazon.com/dp/1633437167?tag=diamantai-ragrm-20) by Sebastian Raschka. Build a GPT-style model end to end in PyTorch.
-- [AI Engineering: Building Applications with Foundation Models](https://www.amazon.com/dp/1098166302?tag=diamantai-ragrm-20) by Chip Huyen. Canonical reference for productionizing foundation-model apps.
-- [Hands-On Large Language Models](https://www.amazon.com/dp/1098150961?tag=diamantai-ragrm-20) by Jay Alammar and Maarten Grootendorst. Visual, practical LLM walkthroughs.
-- [Natural Language Processing with Transformers](https://www.amazon.com/dp/1098136799?tag=diamantai-ragrm-20) by Lewis Tunstall, Leandro von Werra, and Thomas Wolf. From the Hugging Face team.
-- [Designing Machine Learning Systems](https://www.amazon.com/dp/1098107969?tag=diamantai-ragrm-20) by Chip Huyen. ML systems in production, still the standard reference.
-
----
-
-> 🌟 **Support This Project:** Your sponsorship fuels innovation in RAG technologies. **[Become a sponsor](https://www.diamant-ai.com/sponsorship)** to help maintain and expand this valuable resource!
-
-## 📚 More from the same author
-
-**[Prompt Engineering: Master the Art of AI Interaction](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=main-readme&click=book-buy-pe&target=https%3A%2F%2Fwww.amazon.com%2Fdp%2FB0DZ85RPB5%3Ftag%3Ddiamantai-ragrm-20&retarget=0&text=book-buy-pe)** - the prompting foundation that makes RAG work better. Same visual approach, 22 hands-on techniques.
-
-*Run a course, newsletter, or dev community? You can [earn 25% recommending RAG Made Simple](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=main-readme&click=affiliate-signup&target=https%3A%2F%2Fnirdiamant.gumroad.com%2Faffiliates&retarget=0&text=affiliate-signup) to your audience.*
 
 ## Contributing
 

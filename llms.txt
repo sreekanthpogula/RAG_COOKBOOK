@@ -1,6 +1,6 @@
 # RAG Techniques
 
-> A community-driven collection of 41 runnable Jupyter notebooks teaching Retrieval-Augmented Generation (RAG), from foundational retrieval and chunking through adaptive, agentic, graph-based and self-correcting systems. Each notebook is self-contained: the intuition behind one technique, a full implementation, and the paper or source it derives from. This is a teaching repository rather than a library, so there is no package to install and no public API. Authored by Nir Diamant. Licensed under a custom non-commercial license.
+> A community-driven collection of 41 runnable Jupyter notebooks teaching Retrieval-Augmented Generation (RAG), from foundational retrieval and chunking through adaptive, agentic, graph-based and self-correcting systems. Each notebook is self-contained: the intuition behind one technique, a full implementation, and the paper or source it derives from. This is a teaching repository rather than a library, so there is no package to install and no public API. Authored by Nir Diamant. Licensed under a custom non-commercial license. This fork is maintained by Sreekanth Pogula at https://github.com/sreekanthpogula/RAG_COOKBOOK.
 
 ## Core Documents
 
@@ -82,9 +82,6 @@
 
 ## Related work by the same author
 
-- [RAG Made Simple](https://diamant-ai.com/rag-made-simple): The book that extends this repository. A 400-page visual guide to RAG.
 - [GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents): Tutorials for building GenAI agents, from single bots to multi-agent systems.
 - [agents-towards-production](https://github.com/NirDiamant/agents-towards-production): Taking agents from prototype to deployed product.
 - [Agent_Memory_Techniques](https://github.com/NirDiamant/Agent_Memory_Techniques): 30 notebooks on memory for LLM agents.
-- [Newsletter](https://newsletter.diamant-ai.com): Weekly deep dives on GenAI engineering.
-- [Community Discord](https://discord.gg/cA6Aa4uyDX): Questions, contributions and discussion.

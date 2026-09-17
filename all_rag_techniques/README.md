@@ -43,8 +43,6 @@ Every notebook here has a written walkthrough. Four of them also have a video ex
 
 <div align="center">
 
-[![Subscribe on YouTube](https://img.shields.io/youtube/channel/subscribers/UCatj5F2gohksvfNmnEpRnNA?style=social)](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=all-rag-techniques--index&click=youtube-subscribe-channel&target=https%3A%2F%2Fwww.youtube.com%2F%40DiamantAI%3Fsub_confirmation%3D1&retarget=0&text=youtube-subscribe-channel) &nbsp; [**Browse every episode →**](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=all-rag-techniques--index&click=youtube-all-episodes&target=https%3A%2F%2Fwww.youtube.com%2F%40DiamantAI&retarget=0&text=youtube-all-episodes)
-
 </div>
 
 ---

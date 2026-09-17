@@ -1,14 +1,8 @@
 # Contributing to RAG Techniques
 
-Welcome to the world's largest and most comprehensive repository of Retrieval-Augmented Generation (RAG) tutorials! 🌟 We're thrilled you're interested in contributing to this ever-growing knowledge base. Your expertise and creativity can help us maintain our position at the forefront of RAG technology.
+Welcome to this repository of Retrieval-Augmented Generation (RAG) tutorials! 🌟 We're thrilled you're interested in contributing to this ever-growing knowledge base. Your expertise and creativity can help us maintain our position at the forefront of RAG technology.
 
-## Join Our Community
-
-We have a vibrant Discord community where contributors can discuss ideas, ask questions, and collaborate on RAG techniques. Join us at:
-
-[RAG Techniques Discord Server](https://discord.gg/cA6Aa4uyDX)
-
-Don't hesitate to introduce yourself and share your thoughts!
+This is a fork of [NirDiamant/RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques), maintained by Sreekanth Pogula at [sreekanthpogula/RAG_COOKBOOK](https://github.com/sreekanthpogula/RAG_COOKBOOK). Contributions here apply to this fork.
 
 ## Ways to Contribute
 
@@ -19,13 +13,13 @@ We welcome contributions of all kinds! Here are some ways you can help:
 3. **Fix Bugs:** Help us squash bugs in existing code or explanations.
 4. **Enhance Documentation:** Improve clarity, add examples, or fix typos in our docs.
 5. **Share Creative Ideas:** Have an innovative idea? We're all ears!
-6. **Engage in Discussions:** Participate in our Discord community to help shape the future of RAG.
+6. **Engage in Discussions:** Open a GitHub issue or discussion to help shape the future of RAG.
 
 Remember, no contribution is too small. Every improvement helps make this repository an even better resource for the community.
 
 ## Reporting Issues
 
-Found a problem or have a suggestion? Please create an issue on GitHub, providing as much detail as possible. You can also discuss issues in our Discord community.
+Found a problem or have a suggestion? Please create an issue on GitHub, providing as much detail as possible.
 
 ## Contributing Code or Content
 
@@ -36,7 +30,7 @@ Found a problem or have a suggestion? Please create an issue on GitHub, providin
 5. **Commit:** Make your git commits informative and concise.
 6. **Stay Updated:** The main branch is frequently updated. Before opening a pull request, make sure your code is up-to-date with the current main branch and has no conflicts.
 7. **Push and Pull Request:** Push to your fork and submit a pull request.
-8. **Discuss:** Use the Discord community to discuss your contribution if you need feedback or have questions.
+8. **Discuss:** Use GitHub issues or pull request comments to discuss your contribution if you need feedback or have questions.
 
 ## Adding a New RAG Method
 
@@ -50,7 +44,7 @@ When adding a new RAG method to the repository, please follow these additional s
    - Place it in the appropriate position based on complexity (methods are sorted from easiest to most complicated)
    - Use the following format for the link:
      ```
-     ### [Number]. [Your Method Name 🏷️](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/your_file_name.ipynb)
+     ### [Number]. [Your Method Name 🏷️](https://colab.research.google.com/github/sreekanthpogula/RAG_COOKBOOK/blob/main/all_rag_techniques/your_file_name.ipynb)
      ```
    - Replace `[Number]` with the appropriate number, `[Your Method Name]` with your method's name, and `your_file_name.ipynb` with the actual name of your notebook file
    - Choose an appropriate emoji that represents your method
@@ -77,9 +71,9 @@ For example, if you're adding a new technique between Simple RAG and Next Method
 
 In the list:
 ```
-### 1. [Simple RAG 🌱](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/simple_rag.ipynb)
-### 2. [Your New Method 🆕](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/your_new_method.ipynb)
-### 3. [Next Method 🔜](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/next_method.ipynb)
+### 1. [Simple RAG 🌱](https://colab.research.google.com/github/sreekanthpogula/RAG_COOKBOOK/blob/main/all_rag_techniques/simple_rag.ipynb)
+### 2. [Your New Method 🆕](https://colab.research.google.com/github/sreekanthpogula/RAG_COOKBOOK/blob/main/all_rag_techniques/your_new_method.ipynb)
+### 3. [Next Method 🔜](https://colab.research.google.com/github/sreekanthpogula/RAG_COOKBOOK/blob/main/all_rag_techniques/next_method.ipynb)
 ```
 
 And in the table:
@@ -105,7 +99,7 @@ For new notebooks or significant additions to existing ones, please follow this 
 • You can use Claude or other AI assistants to help you design the graph if needed<br>
 • Paste your Mermaid code into [Mermaid Live Editor](https://mermaid.live/)<br>
 • In the "Actions" tab of Mermaid Live Editor, download the SVG file of your diagram<br>
-• Store the SVG file in the [images folder](https://github.com/NirDiamant/RAG_Techniques/tree/main/images) of the repository<br>
+• Store the SVG file in the [images folder](https://github.com/sreekanthpogula/RAG_COOKBOOK/tree/main/images) of the repository<br>
 • Use an appropriate, descriptive name for the file<br>
 • In your notebook, display the image using Markdown syntax:<br>
   ```markdown
@@ -149,7 +143,7 @@ Clear documentation is crucial. Whether you're improving existing docs or adding
 
 ## Final Notes
 
-We're grateful for all our contributors and excited to see how you'll help expand the world's most comprehensive RAG resource. Don't hesitate to ask questions in our Discord community if you're unsure about anything.
+We're grateful for all our contributors and excited to see how you'll help expand this RAG resource. Don't hesitate to open an issue if you're unsure about anything.
 
 Let's harness our collective knowledge and creativity to push the boundaries of RAG technology together!
 
