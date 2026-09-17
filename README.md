@@ -549,7 +549,7 @@ We welcome contributions from the community! If you have a new technique or impr
 
 ## Contributors
 
-[![Contributors](https://contrib.rocks/image?repo=NirDiamant/RAG_Techniques)](https://github.com/NirDiamant/RAG_Techniques/graphs/contributors)
+- [Nir Diamant](https://github.com/NirDiamant) — original author
 
 ## License
 
